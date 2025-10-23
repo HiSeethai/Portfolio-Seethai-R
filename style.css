@@ -22,8 +22,11 @@ body {
   font-size: 0.9rem;
   color: #d1d5db;
 }
-
+.nav-link{
+  color: white;
+}
 .site-header .nav-link:hover {
+  font-size: 1.1rem;
   color: #ffd700;
   transform: translateY(-2px);
 }
@@ -173,6 +176,33 @@ h5{
   box-shadow: 0 4px 15px rgba(124,58,237,0.3);
   background: linear-gradient(90deg, #ff00cc, #3333ff, #ff00cc);
   color: #ffffff;
+}
+.education{
+  padding:30px;
+  text-align: justify;
+  line-height: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.education:hover {
+  box-shadow: 0 4px 15px rgba(124,58,237,0.3);
+  background: linear-gradient(90deg, #ff00cc, #3333ff, #ff00cc);
+  color: #ffffff;
+}
+.achievements{
+  padding:30px;
+  text-align: justify;
+  line-height: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.achievements:hover{
+  box-shadow: 0 4px 15px rgba(124,58,237,0.3);
+  background: linear-gradient(90deg, #ff00cc, #3333ff, #ff00cc);
+  color: #ffffff;
+  border-radius: 20px;
 }
 /* FOOTER */
 footer {
